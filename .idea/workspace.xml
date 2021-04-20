@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/tech-culture-internship.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week1/task1/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/week1/1.js" beforeDir="false" />
-    </list>
+    <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,12 +53,31 @@
       <option name="presentableId" value="Default" />
       <updated>1618818177093</updated>
       <workItem from="1618818178471" duration="523000" />
-      <workItem from="1618903140529" duration="269000" />
+      <workItem from="1618903140529" duration="640000" />
     </task>
+    <task id="LOCAL-00001" summary="2 task 1 problem added">
+      <created>1618903628264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618903628264</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2 task 1 problem added">
+      <created>1618903678509</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618903678509</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2 task 1 problem added" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 task 1 problem added" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1282" height="192" key="GridCell.Tab.0.bottom" timestamp="1618818705603">
