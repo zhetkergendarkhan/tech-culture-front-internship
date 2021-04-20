@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="" />
+    <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/week1/task2/Operators in JS/1/js/script2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task2/Operators in JS/1/js/script3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task2/Operators in JS/1/js/script4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/task2/1/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/task2/1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/task2/1/js/script.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +35,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/week1/task2" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Darkhan\Desktop\tech-culture-internship\week1\task2" />
+    </key>
   </component>
   <component name="RunManager" selected="Node.js.script.js">
     <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week2/1.js" working-dir="$PROJECT_DIR$/week2">
@@ -53,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618818177093</updated>
       <workItem from="1618818178471" duration="523000" />
-      <workItem from="1618903140529" duration="640000" />
+      <workItem from="1618903140529" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="2 task 1 problem added">
       <created>1618903628264</created>
@@ -69,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618903678509</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2 task 1 problem added">
+      <created>1618903815669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618903815669</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,21 +100,33 @@
     <option name="LAST_COMMIT_MESSAGE" value="2 task 1 problem added" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1282" height="192" key="GridCell.Tab.0.bottom" timestamp="1618818705603">
+    <state x="381" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618904691258">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.bottom/0.0.1303.768@0.0.1303.768" timestamp="1618818705603" />
-    <state width="1282" height="192" key="GridCell.Tab.0.center" timestamp="1618818705603">
+    <state x="381" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1303.768@0.0.1303.768" timestamp="1618904691258" />
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1618903814711">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.center/0.0.1303.768@0.0.1303.768" timestamp="1618818705603" />
-    <state width="1282" height="192" key="GridCell.Tab.0.left" timestamp="1618818705603">
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1303.768@0.0.1303.768" timestamp="1618903814711" />
+    <state width="1282" height="192" key="GridCell.Tab.0.bottom" timestamp="1618903520697">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.left/0.0.1303.768@0.0.1303.768" timestamp="1618818705603" />
-    <state width="1282" height="192" key="GridCell.Tab.0.right" timestamp="1618818705603">
+    <state width="1282" height="192" key="GridCell.Tab.0.bottom/0.0.1303.768@0.0.1303.768" timestamp="1618903520697" />
+    <state width="1282" height="192" key="GridCell.Tab.0.center" timestamp="1618903520696">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.right/0.0.1303.768@0.0.1303.768" timestamp="1618818705603" />
+    <state width="1282" height="192" key="GridCell.Tab.0.center/0.0.1303.768@0.0.1303.768" timestamp="1618903520696" />
+    <state width="1282" height="192" key="GridCell.Tab.0.left" timestamp="1618903520696">
+      <screen x="0" y="0" width="1303" height="768" />
+    </state>
+    <state width="1282" height="192" key="GridCell.Tab.0.left/0.0.1303.768@0.0.1303.768" timestamp="1618903520696" />
+    <state width="1282" height="192" key="GridCell.Tab.0.right" timestamp="1618903520697">
+      <screen x="0" y="0" width="1303" height="768" />
+    </state>
+    <state width="1282" height="192" key="GridCell.Tab.0.right/0.0.1303.768@0.0.1303.768" timestamp="1618903520697" />
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2" timestamp="1618903835687">
+      <screen x="0" y="0" width="1303" height="768" />
+    </state>
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1303.768@0.0.1303.768" timestamp="1618903835687" />
   </component>
 </project>
