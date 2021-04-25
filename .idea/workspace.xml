@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task3/problem_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task3/problem_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task3/problem_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week1/task3/problem_4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +50,17 @@
       <recent name="C:\Users\Darkhan\Desktop\tech-culture-internship\week1\task2\for,while" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
-    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week2/1.js" working-dir="$PROJECT_DIR$/week2">
+  <component name="RunManager" selected="Node.js.problem_4.js">
+    <configuration name="problem_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week1/task3/problem_1.js" working-dir="$PROJECT_DIR$/week1/task3">
+      <method v="2" />
+    </configuration>
+    <configuration name="problem_2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week1/task3/problem_2.js" working-dir="$PROJECT_DIR$/week1/task3">
+      <method v="2" />
+    </configuration>
+    <configuration name="problem_3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week1/task3/problem_3.js" working-dir="$PROJECT_DIR$/week1/task3">
+      <method v="2" />
+    </configuration>
+    <configuration name="problem_4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week1/task3/problem_4.js" working-dir="$PROJECT_DIR$/week1/task3">
       <method v="2" />
     </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/week1/task2/1/js/script.js" working-dir="$PROJECT_DIR$/week1/task2/1/js">
@@ -55,8 +68,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.problem_4.js" />
+        <item itemvalue="Node.js.problem_3.js" />
+        <item itemvalue="Node.js.problem_1.js" />
+        <item itemvalue="Node.js.problem_2.js" />
         <item itemvalue="Node.js.script.js" />
-        <item itemvalue="Node.js.1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +87,10 @@
       <workItem from="1618818178471" duration="523000" />
       <workItem from="1618903140529" duration="2632000" />
       <workItem from="1618985816910" duration="4335000" />
-      <workItem from="1619012667931" duration="4852000" />
+      <workItem from="1619012667931" duration="4980000" />
+      <workItem from="1619096572311" duration="37000" />
+      <workItem from="1619177986263" duration="3209000" />
+      <workItem from="1619346517569" duration="1385000" />
     </task>
     <task id="LOCAL-00001" summary="2 task 1 problem added">
       <created>1618903628264</created>
@@ -115,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619016737734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git ignore">
+      <created>1619017860778</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619017860778</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,37 +152,38 @@
     <MESSAGE value="2 task 1 problem added" />
     <MESSAGE value="2 task 2 problem added" />
     <MESSAGE value="all problem added" />
-    <option name="LAST_COMMIT_MESSAGE" value="all problem added" />
+    <MESSAGE value="git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1619016353486">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
     <state x="381" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1303.768@0.0.1303.768" timestamp="1619016353486" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1619016732992">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1619017859826">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1303.768@0.0.1303.768" timestamp="1619016732992" />
-    <state width="1282" height="192" key="GridCell.Tab.0.bottom" timestamp="1618905803676">
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1303.768@0.0.1303.768" timestamp="1619017859826" />
+    <state width="1282" height="124" key="GridCell.Tab.0.bottom" timestamp="1619347387089">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.bottom/0.0.1303.768@0.0.1303.768" timestamp="1618905803676" />
-    <state width="1282" height="192" key="GridCell.Tab.0.center" timestamp="1618905803676">
+    <state width="1282" height="124" key="GridCell.Tab.0.bottom/0.0.1303.768@0.0.1303.768" timestamp="1619347387089" />
+    <state width="1282" height="124" key="GridCell.Tab.0.center" timestamp="1619347387089">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.center/0.0.1303.768@0.0.1303.768" timestamp="1618905803676" />
-    <state width="1282" height="192" key="GridCell.Tab.0.left" timestamp="1618905803675">
+    <state width="1282" height="124" key="GridCell.Tab.0.center/0.0.1303.768@0.0.1303.768" timestamp="1619347387089" />
+    <state width="1282" height="124" key="GridCell.Tab.0.left" timestamp="1619347387089">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.left/0.0.1303.768@0.0.1303.768" timestamp="1618905803675" />
-    <state width="1282" height="192" key="GridCell.Tab.0.right" timestamp="1618905803676">
+    <state width="1282" height="124" key="GridCell.Tab.0.left/0.0.1303.768@0.0.1303.768" timestamp="1619347387089" />
+    <state width="1282" height="124" key="GridCell.Tab.0.right" timestamp="1619347387089">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state width="1282" height="192" key="GridCell.Tab.0.right/0.0.1303.768@0.0.1303.768" timestamp="1618905803676" />
-    <state x="243" y="117" key="Vcs.Push.Dialog.v2" timestamp="1619016736701">
+    <state width="1282" height="124" key="GridCell.Tab.0.right/0.0.1303.768@0.0.1303.768" timestamp="1619347387089" />
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2" timestamp="1619017863331">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1303.768@0.0.1303.768" timestamp="1619016736701" />
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1303.768@0.0.1303.768" timestamp="1619017863331" />
     <state x="314" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1618986461148">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
