@@ -1,33 +1,16 @@
-/**
- *@description Custom class which implements GET and POST method
- */
+
 class HttpClient{
-    /**
-     * @description the main API url
-     * @type string
-     */
+
     BASE_URL
-    /**
-     * @type string
-     * @description last url
-     */
     last_request_url
     last_response_status_code
     last_error_info
 
-    /**
-     *
-     * @param BASE_URL string
-     */
     constructor(BASE_URL) {
         this.BASE_URL = BASE_URL
     }
 
-    /**
-     * @description method to make GET request to the server with endpoint
-     * @param endpoint
-     * @returns {Promise<Response>}
-     */
+
     async get(endpoint) {
         this.last_request_url = this.BASE_URL + endpoint
 
@@ -43,11 +26,7 @@ class HttpClient{
                 return json;
             });
     }
-    /**
-     * @description method to make GET request to the server with endpoint
-     * @param endpoint point which was added to main url to make POST
-     * @returns {Promise<Response>}
-     */
+
     async post(endpoint, data = {}) {
         return  await fetch(this.BASE_URL+endpoint, {
             method: 'POST',
@@ -70,26 +49,11 @@ class HttpClient{
 
     }
 
-    /**
-     *
-     * @returns field of the class last_error_info
-     */
-    get_last_error_info(){
-        return this.last_error_info
-    }
-
-    /**
-     *
-     * @returns field of the class last_response_status_code
-     */
     get_last_response_status_code(){
         return this.last_response_status_code
     }
 
-    /**
-     *
-     * @returns field of the class last_request_url
-     */
+
     get_last_request_url(){
         return this.last_request_url
     }
