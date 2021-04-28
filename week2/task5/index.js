@@ -1,8 +1,8 @@
 const httpClient = new HttpClient('https://jsonplaceholder.typicode.com/');
 
 const result = document.getElementById('result')
-const statusCode = document.getElementById('status-code')
-const lastRequest = document.getElementById('last-request')
+const statusCode = document.getElementById('status_code')
+const lastRequest = document.getElementById('last_request')
 const btn = document.getElementById('btn')
 
 let posts = []
@@ -20,8 +20,8 @@ httpClient.get('posts')
                     </div>`
         })
     })
-lastRequest.innerText = `Last requested url:${httpClient.get_last_request_url()}`
-statusCode.innerText = `Status code:${httpClient.get_last_response_status_code()}`
+lastRequest.innerText = `Last requested url: ${httpClient.get_last_request_url()}`
+statusCode.innerText = `Status code: ${httpClient.get_last_response_status_code()}`
 
 
 btn.addEventListener('click', e => {
