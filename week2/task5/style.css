@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    color: #333333;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width:100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px 0;
+
+}
+
+
+
+.header.active{
+    background-color: #3e2d2e;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav{
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    transition:color .1s linear;
+}
+
+.nav__link:hover{
+    color:#fce38a;
+}
+
+.section__main{
+    margin-top: 100px;
+}
+
+.main__title{
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.main__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__input{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    font-size: 22px;
+}
+
+.main__button{
+    display: block;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #3e2d2e;
+    padding: 5px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.main__button:hover{
+    color: #fce38a;
+    background-color: #664b4d;
+    transition: all .1s linear;
+}
+
+.main__posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.post{
+    width: 40%;
+    margin: 10px;
+}
+

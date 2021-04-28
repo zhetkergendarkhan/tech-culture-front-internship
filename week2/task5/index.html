@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task5</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header active" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">TechCulture Internship</div>
+            <nav class="nav">
+                <a class="nav__link" href="https://github.com/zhetkergendarkhan">GitHub</a>
+                <a class="nav__link" href="https://www.linkedin.com/in/darkhan-zhetkergen-8aa4351b3/">LinkedIn</a>
+                <a class="nav__link" href="https://www.instagram.com/neighbor.d_echelon.d/">Instagram</a>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<section class="container section__main">
+    <h1 class="main__title">Добавить Посты</h1>
+    <div class="main__form">
+    <input class="main__input" id="title" name="title" placeholder="Введите название">
+    <input class="main__input" id="body" name="body" placeholder="Введите контент">
+    <button class="main__button" id="btn" name="submit" type="submit">Добавить</button>
+    </div>
+
+    <div class="main__posts" id="result">
+        <div class="post"></div>
+    </div>
+    <div id="logs">
+        <h4 id="last-request"></h4>
+        <h5 id="status-code"></h5>
+        <img id="cat">
+    </div>
+</section>
+
+
+<script src="HTTPClient.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
+
