@@ -1,3 +1,5 @@
+
+
 class HttpClient {
     base_url
     last_request_url
@@ -19,18 +21,26 @@ class HttpClient {
 
     async get(endpoint) {
         this.last_request_url = this.base_url + endpoint
+        loader.style.display = 'block'
         return await fetch(this.base_url.concat(endpoint))
+
+
             .then(response => {
                 this.last_response_status_code = response.status
                 if (!response.ok)
                     this.last_error_info = response.statusText
+
                 else
                     return response.json()
+
+
 
             })
             .then((res) => {
                 return res;
+
             });
+
 
     }
 

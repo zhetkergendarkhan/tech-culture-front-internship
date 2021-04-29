@@ -4,6 +4,7 @@ const result = document.getElementById('result')
 const statusCode = document.getElementById('status_code')
 const lastRequest = document.getElementById('last_request')
 const btn = document.getElementById('btn')
+const loader = document.querySelector('#loader')
 
 let posts = []
 
@@ -11,17 +12,19 @@ let posts = []
 httpClient.get('posts')
     .then(postsAPI => {
         posts = posts.concat(postsAPI)
+        loader.style.display = 'none'
         result.innerHTML = posts.map(
              (post)=> {
             return `<div class="post">
-                       <h1>${post.id}</h1>
-                       <p>${post.title}</p>
-                       <p>${post.body}</p>
+                       <h1 class="post__id">${post.id}) Пост</h1>
+                       <p class="post__title"><b>Название:</b> ${post.title}</p>
+                       <p class="post__text"><b>Текст:</b> ${post.body}</p>
                     </div>`
         })
     })
-lastRequest.innerText = `Last requested url: ${httpClient.get_last_request_url()}`
-statusCode.innerText = `Status code: ${httpClient.get_last_response_status_code()}`
+
+lastRequest.innerHTML = `Last requested url: ${httpClient.get_last_request_url()}`
+statusCode.innerHTMl = `Status code: ${httpClient.get_last_response_status_code()}`
 
 
 btn.addEventListener('click', e => {
@@ -34,15 +37,15 @@ btn.addEventListener('click', e => {
             posts.push(post)
 
         })
-    lastRequest.innerText = `Last requested url:${httpClient.get_last_request_url()}`
-    statusCode.innerText = `Status code:${httpClient.get_last_response_status_code()}`
+    lastRequest.innerHTML = `Last requested url:${httpClient.get_last_request_url()}`
+    statusCode.innerHTML = `Status code:${httpClient.get_last_response_status_code()}`
 
     result.innerHTML =  posts.map(
          (post)=> {
             return `<div class="post">
-                       <h1>${post.id}</h1>
-                       <p>${post.title}</p>
-                       <p>${post.body}</p>
+                       <h1 class="post__id">${post.id}) Пост</h1>
+                       <p class="post__title"><b>Название:</b> ${post.title}</p>
+                       <p class="post__text"><b>Текст:</b> ${post.body}</p>
                     </div>`
         })
     document.getElementById('title').value = ''

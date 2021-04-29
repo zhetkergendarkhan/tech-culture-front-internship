@@ -15,7 +15,8 @@
             <nav class="nav">
                 <a class="nav__link" target="_blank" href="https://github.com/zhetkergendarkhan">GitHub</a>
                 <a class="nav__link" target="_blank" href="https://www.linkedin.com/in/darkhan-zhetkergen-8aa4351b3/">LinkedIn</a>
-                <a class="nav__link" target="_blank" href="https://www.instagram.com/neighbor.d_echelon.d/">Instagram</a>
+                <a class="nav__link" target="_blank"
+                   href="https://www.instagram.com/neighbor.d_echelon.d/">Instagram</a>
             </nav>
         </div>
     </div>
@@ -24,9 +25,15 @@
 <section class="container section__main">
     <h1 class="main__title">Добавить Посты</h1>
     <div class="main__form">
-    <input class="main__input" id="title" name="title" placeholder="Введите название">
-    <input class="main__input" id="body" name="body" placeholder="Введите контент">
-    <button class="main__button" id="btn" name="submit" type="submit">Добавить</button>
+        <input class="main__input" id="title" name="title" placeholder="Введите название">
+        <input class="main__input" id="body" name="body" placeholder="Введите контент">
+        <button class="main__button" id="btn" name="submit" type="submit">Добавить</button>
+    </div>
+    <div id="loader" style="display: none" class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 
     <div class="main__dep">
@@ -38,8 +45,6 @@
         <div class="post"></div>
     </div>
 </section>
-
-
 
 
 <script src="HTTPClient.js"></script>

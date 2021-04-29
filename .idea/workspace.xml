@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44059d42-be87-4479-9308-ce93dff87488" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/firebase-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/task5/firebase-debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/task5/HTTPClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/week2/task5/HTTPClient.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/week2/task5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/week2/task5/index.html" afterDir="false" />
@@ -38,6 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/week1/task2/arrowFunction" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -94,7 +97,8 @@
       <workItem from="1619177986263" duration="3209000" />
       <workItem from="1619346517569" duration="2332000" />
       <workItem from="1619517363191" duration="4611000" />
-      <workItem from="1619595302754" duration="10785000" />
+      <workItem from="1619595302754" duration="11432000" />
+      <workItem from="1619684786952" duration="3376000" />
     </task>
     <task id="LOCAL-00001" summary="2 task 1 problem added">
       <created>1618903628264</created>
@@ -166,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619605377819</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="task 5 added">
+      <created>1619607026623</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619607026623</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,10 +198,10 @@
       <screen x="0" y="0" width="1303" height="768" />
     </state>
     <state x="381" y="131" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1303.768@0.0.1303.768" timestamp="1619016353486" />
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1619605376662">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1619607025408">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1303.768@0.0.1303.768" timestamp="1619605376662" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1303.768@0.0.1303.768" timestamp="1619607025408" />
     <state x="431" y="139" key="FileChooserDialogImpl" timestamp="1619597519411">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
@@ -215,10 +226,10 @@
       <screen x="0" y="0" width="1303" height="768" />
     </state>
     <state x="429" y="86" key="RollbackChangesDialog/0.0.1303.768@0.0.1303.768" timestamp="1619598847829" />
-    <state x="243" y="117" key="Vcs.Push.Dialog.v2" timestamp="1619605379517">
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2" timestamp="1619607028179">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
-    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1303.768@0.0.1303.768" timestamp="1619605379517" />
+    <state x="243" y="117" key="Vcs.Push.Dialog.v2/0.0.1303.768@0.0.1303.768" timestamp="1619607028179" />
     <state x="314" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1618986461148">
       <screen x="0" y="0" width="1303" height="768" />
     </state>
