@@ -1,5 +1,3 @@
-
-
 class HttpClient {
     base_url
     last_request_url
@@ -22,7 +20,7 @@ class HttpClient {
     async get(endpoint) {
         this.last_request_url = this.base_url + endpoint
         loader.style.display = 'block'
-        return await fetch(this.base_url+endpoint)
+        return await fetch(this.base_url + endpoint)
 
 
             .then(response => {
@@ -32,7 +30,6 @@ class HttpClient {
 
                 else
                     return response.json()
-
 
 
             })
